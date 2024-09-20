@@ -27,9 +27,37 @@ body {
 }
 .nav-link {
     margin-right: 1em !important;
+   	font-weight: bold;
+   	font-size: 14px;
+   	text-transform: uppercase;
+   	text-decoration: none;
+   	color: #ffffff;
+  	padding: 20px 0px;
+  	margin: 0px 20px;
+   	display: inline-block;
+   	position: relative;
+   	opacity: 0.75;
 }
 .nav-link:hover {
-    color: #000;
+    opacity: 1;
+	color: #ffffff;
+}
+
+.nav-link::before {
+  transition: 300ms;
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color: #ffffff;
+}
+
+.nav-link-ltr::before {
+  width: 0%;
+  bottom: 10px;
+}
+
+.nav-link-ltr:hover::before {
+  width: 100%;
 }
 .navbar-collapse {
     justify-content: flex-end;
