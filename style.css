@@ -51,7 +51,7 @@ body {
 .nav-link {
     margin-right: 1em !important; 
    	font-weight: bold;
-   	font-size: 14px;
+   	font-size: 16px;
    	text-transform: uppercase;
    	text-decoration: none;
    	color: #ffffff;
@@ -395,4 +395,17 @@ ol
     {margin-bottom:0in;}
 ul
     {margin-bottom:0in;}
+
+.button {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 
